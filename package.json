@@ -1,6 +1,7 @@
 {
-  "name": "com.vod.vas@.InterfaceSerializer",
+  "name": "com.vodvas.interfaceserializer",
   "version": "1.0.0",
+  "main": "InterfaceSerializer.cs"
   "displayName": "InterfaceSerializer",
   "description": "Universal interface reference system for Unity",
   "unity": "2022.3",
