@@ -20,7 +20,7 @@ Open Window > Package Manager
 Click + > Add package from Git URL
 
 Paste:
-[(https://github.com/VodVas/InterfaceSerializer/edit/main/README.md)](https://github.com/VodVas/InterfaceSerializer.git?path=/Assets/Plugins/InterfaceSerializer)
+https://github.com/VodVas/InterfaceSerializer/edit/main/README.md)](https://github.com/VodVas/InterfaceSerializer.git?path=/Assets/Plugins/InterfaceSerializer
 
 ## Usage
 Create your interface:
