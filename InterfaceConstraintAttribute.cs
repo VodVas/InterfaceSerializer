@@ -1,15 +1,17 @@
+#if UNITY_EDITOR
 using System;
 using UnityEngine;
 
-public class InterfaceConstraintAttribute : PropertyAttribute
+namespace VodVas.InterfaceSerializer
 {
-    public Type InterfaceType { get; }
-
-    public InterfaceConstraintAttribute(Type interfaceType)
+    public class InterfaceConstraintAttribute : PropertyAttribute
     {
-        if (!interfaceType.IsInterface)
-            throw new ArgumentException("Type must be an interface");
+        public Type InterfaceType { get; }
 
-        InterfaceType = interfaceType;
+        public InterfaceConstraintAttribute(Type interfaceType)
+        {
+            InterfaceType = interfaceType;
+        }
     }
 }
+#endif

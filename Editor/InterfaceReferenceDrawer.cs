@@ -2,6 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 using System;
+using VodVas.InterfaceSerializer;
 
 [CustomPropertyDrawer(typeof(InterfaceConstraintAttribute))]
 public class InterfaceReferenceDrawer : PropertyDrawer
