@@ -1,6 +1,6 @@
 # InterfaceSerializer for Unity
 
-##Description
+#Description
 InterfaceSerializer is a lightweight Unity editor tool that enables serialization of interface references in the Inspector. It solves the common Unity limitation where interfaces cannot be directly assigned in the Editor.
 
 Key Features
