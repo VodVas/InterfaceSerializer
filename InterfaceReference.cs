@@ -1,11 +1,14 @@
-using UnityEngine;
 using System;
+using UnityEngine;
 
-[Serializable]
-public struct InterfaceReference<T> where T : class
+namespace VodVas.InterfaceSerializer
 {
-    [SerializeField] private MonoBehaviour _implementation;
+    [Serializable]
+    public struct InterfaceReference<T> where T : class
+    {
+        [SerializeField] private MonoBehaviour _implementation;
 
-    public T Value => _implementation as T;
-    public bool IsValid => _implementation != null && Value != null;
+        public T Value => _implementation as T;
+        public bool IsValid => _implementation != null && Value != null;
+    }
 }
