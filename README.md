@@ -19,7 +19,7 @@ Add to your Unity project:
 2. Click **+ → Add package from Git URL**
 3. Paste:
    ```text
-   https://github.com/VodVas/InterfaceSerializer.git
+https://github.com/VodVas/InterfaceSerializer.git
    ```
 4. Press **Add**
 
