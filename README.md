@@ -27,19 +27,24 @@ Create your interface:
 
 ```csharp
 public interface IDamageable { void TakeDamage(float amount); }
+```
 Implement in MonoBehaviour:
 
 ```csharp
 public class Enemy : MonoBehaviour, IDamageable { ... }
+```
 Reference in other components:
 
 ```csharp
 [SerializeField, InterfaceConstraint(typeof(IDamageable))] 
 private MonoBehaviour _damageable;
-
+```
+```csharp
 //Access the interface//
 private IDamageable Damageable => _damageable as IDamageable;
-Requirements
+```
+
+## Requirements
 Unity 2019.4+ (LTS recommended)
 
 ## No external dependencies
