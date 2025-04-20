@@ -1,11 +1,9 @@
-#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
 using System;
 
 namespace VodVas.InterfaceSerializer
 {
-
     [CustomPropertyDrawer(typeof(InterfaceConstraintAttribute))]
     public class InterfaceReferenceDrawer : PropertyDrawer
     {
@@ -48,4 +46,3 @@ namespace VodVas.InterfaceSerializer
         }
     }
 }
-#endif
