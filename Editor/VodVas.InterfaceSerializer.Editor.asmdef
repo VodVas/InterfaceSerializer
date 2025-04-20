@@ -1,0 +1,5 @@
+{
+  "name": "VodVas.InterfaceSerializer.Editor",
+  "references": ["VodVas.InterfaceSerializer.Runtime"],
+  "includePlatforms": ["Editor"]
+}
