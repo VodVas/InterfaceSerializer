@@ -1,12 +1,12 @@
 {
   "name": "com.vodvas.interfaceserializer",
   "version": "1.0.0",
-  "displayName": "InterfaceSerializer",
+  "displayName": "Interface Serializer",
   "description": "Universal interface reference system for Unity",
   "unity": "2022.3",
   "keywords": ["editor", "interface", "serialization"],
   "author": {
     "name": "Vod Vas",
-    "email": "vod.vas@gmail.com"
+    "email": "vod.vas2022@gmail.com"
   }
 }

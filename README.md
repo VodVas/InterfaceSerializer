@@ -12,15 +12,6 @@ InterfaceSerializer is a lightweight Unity editor tool that enables serializatio
 
 📦 UPM-Compatible - Easy installation via Git URL
 
-## Installation
-Add to your Unity project:
-
-1. Open **Window → Package Manager**
-2. Click **+ → Add package from Git URL**
-3. Paste:
-   ``` https://github.com/VodVas/InterfaceSerializer.git ```
-4. Press **Add**
-
 ## Usage
 Create your interface:
 
